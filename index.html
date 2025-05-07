@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cadastro de aluno</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <section class="section">
+            <div class="container">
+                <div class="tittle">
+                    <h1 class="h1">Login</h1>
+                </div>
+                <div class="wrapper">
+                    <div class="fm-1">
+                        <h2 class="h2">Nome de usuario</h2>
+                        <div class="line"></div>
+                        <div class="input-text">
+                            <span>
+                                <label for="text">
+                                    <img class="img" src="Imagens/user.png" />
+                                </label>
+                            </span>
+                            <input id="text" type="text" placeholder="Primeiro Nome" />
+                        </div>
+                        <h2 class="h2">CPF Do Aluno</h2>
+                        <div class="line"></div>
+                        <div class="input-text">
+                            <input id="text" type="text" placeholder="000.000.000-00" maxlength="11" />
+                        </div>
+                        <h2 class="h2">E-mail</h2>
+                        <div class="line"></div>
+                        <div class="input-text">
+                            <input id="text" type="email" placeholder="Coloque Seu Email" />
+                        </div>
+                        <h2 class="h2">Numero Para Contato</h2>
+                        <div class="line"></div>
+                        <div class="input-text">
+                            <input id="text" type="number" placeholder="Numero De Celular" />
+                        </div>
+                    </div>
+                    <div class="fm-1">
+                        <h2 class="h2">Sobrenome</h2>
+                        <div class="line"></div>
+                        <div class="input-text">
+                            <span>
+                                <label for="text-2">
+                                    <img class="img" src="Imagens/user.png" />
+                                </label>
+                            </span>
+                            <input id="text-2" type="text" placeholder="Ulitmo Nome" />
+                        </div>
+                        <h2 class="h2">Data De Nascimento</h2>
+                        <div class="line"></div>
+                        <div class="input-text">
+                            <input id="text" type="date" placeholder="" max="2100-01-01" min="1950-01-01" />
+                        </div>
+                        <h2 class="h2">Senha</h2>
+                        <div class="line"></div>
+                        <div class="input-text">
+                            <input id="text" type="password" placeholder="Sua Senha" />
+                        </div>
+                        <h2 class="h2">Confirme Sua Senha</h2>
+                        <div class="line"></div>
+                        <div class="input-text">
+                            <input id="text" type="password" placeholder="Confirme Sua Senha" />
+                        </div>
+                    </div>
+                </div>
+                <div class="gender-details">
+                    <input type="radio" name="gender" id="dot-1" />
+                    <input type="radio" name="gender" id="dot-2" />
+                    <input type="radio" name="gender" id="dot-3" />
+                    <span class="gender-title">Genero</span>
+                    <div class="category">
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">Masculino</span>
+                        </label>
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">Femenino</span>
+                        </label>
+                        <label for="dot-3">
+                            <span class="dot three"></span>
+                            <span class="gender">Prefiro Não Dizer</span>
+                        </label>
+                    </div>
+                    <input class="register-button" type="submit" value="Registrar" />
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
